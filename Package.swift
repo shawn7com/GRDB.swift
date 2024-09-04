@@ -31,7 +31,7 @@ if ProcessInfo.processInfo.environment["SPI_BUILDER"] == "1" {
 }
 
 let package = Package(
-    name: "GRDBswift",
+    name: "GRDB.swift",
     defaultLocalization: "en", // for tests
     platforms: [
         .iOS(.v11),
@@ -41,7 +41,7 @@ let package = Package(
     ],
     products: [
         .library(name: "CSQLite", targets: ["CSQLite"]),
-        .library(name: "GRDBswift", targets: ["GRDB"]),
+        .library(name: "GRDB.swift", targets: ["GRDB"]),
         .library(name: "GRDB-dynamic", type: .dynamic, targets: ["GRDB"]),
     ],
     dependencies: dependencies,

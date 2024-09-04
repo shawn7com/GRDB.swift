@@ -31,7 +31,7 @@ if ProcessInfo.processInfo.environment["SPI_BUILDER"] == "1" {
 }
 
 let package = Package(
-    name: "GRDB",
+    name: "GRDBswift",
     defaultLocalization: "en", // for tests
     platforms: [
         .iOS(.v11),

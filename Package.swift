@@ -41,7 +41,7 @@ let package = Package(
     ],
     products: [
         .library(name: "CSQLite", targets: ["CSQLite"]),
-        .library(name: "GRDB", targets: ["GRDB"]),
+        .library(name: "GRDBswift", targets: ["GRDB"]),
         .library(name: "GRDB-dynamic", type: .dynamic, targets: ["GRDB"]),
     ],
     dependencies: dependencies,
